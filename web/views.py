@@ -7,3 +7,6 @@ def home(request):
 
 def about(request):
 	return render(request,"about.html",{})	
+
+def drbsform(request):
+	return render(request, "drbsreport.html",{})	
